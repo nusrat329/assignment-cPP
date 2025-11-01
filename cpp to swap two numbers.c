@@ -8,7 +8,7 @@ cout <<"Enter second number:";
 cin >> b ;
 temp = a ;
 a = b ;
-b  temp ;
+b = temp ;
 cout <<"After swapping: a = " << a <<" ,b = " << b <<end1;
 return 0;
 }
