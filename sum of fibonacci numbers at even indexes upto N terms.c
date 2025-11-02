@@ -10,7 +10,7 @@ int main() {
     }
     long long fib1 = 0, fib2 = 1;
     long long sum = 0;
-    for (int i = 0; i < N; ++i) {
+    for (int i = 0; i < N; i++) {
         if (i % 2 == 0) {
             sum += fib1;
         }
