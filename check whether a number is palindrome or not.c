@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int num, reversed = 0, original, remainder;
+    int num, reversed = 0, original num, remainder;
     cout << "Enter an integer: ";
     cin >> num;
 
