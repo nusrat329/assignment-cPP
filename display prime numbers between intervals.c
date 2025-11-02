@@ -4,7 +4,7 @@ int main() {
  int low , high,i, flag;
 
   cout <<"Enter two numbers(intervals): ";
-  cin >> loow >> high;
+  cin >> low >> high;
   cout <<"Prime numbers between" << low <<"and " <<high <<"are:" ;
   for (int num = low; num <= high; num++) {
    if (num <= 1 )
