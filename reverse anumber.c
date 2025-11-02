@@ -9,6 +9,6 @@ using namespace std;
    reversed = reversed * 10 + reminder;
     num /= 10;
   }
-  cout << "Reversed number = " <, reversed;
+  cout << "Reversed number = " <<reversed;
   return 0;
   }
