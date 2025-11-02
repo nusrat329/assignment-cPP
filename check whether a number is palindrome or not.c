@@ -5,17 +5,17 @@ int main() {
     cout << "Enter an integer: ";
     cin >> num;
 
-    original = num;
+    original num = num;
     while (num != 0) {
         remainder = num % 10;
         reversed = reversed * 10 + remainder;
         num /= 10;
     }
 
-    if (original == reversed) {
-        cout << original << " is a palindrome." << endl;
+    if (original num == reversed) {
+        cout << original num << " is a palindrome." << endl;
     } else {
-        cout << original << " is not a palindrome." << endl;
+        cout << original num << " is not a palindrome." << endl;
     }
 
     return 0;
