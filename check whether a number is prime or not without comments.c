@@ -6,9 +6,8 @@ int main() {
     cin >> num;
     if (num <= 1) {
         cout << num << " is not a prime number." << endl;
-        return 0;
-    }
-    for (i = 2; i * i <= num; ++i) {
+ 
+    for (i = 2; i * i <= num;i++) {
         if (num % i == 0) {
             flag = 1;
             break;
