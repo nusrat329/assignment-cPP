@@ -15,8 +15,7 @@ int main() {
     double discriminant = b * b - 4 * a * c;
     cout << fixed;
     if (discriminant > 0) {
-        double root1 = (-b + sqrt(discriminant)) / (2 * a);
-        double root2 = (-b - sqrt(discriminant)) / (2 * a);
+        double root1 = (-b + sqrt(discriminant)) / (2 * a);
         cout << "Roots are real and different." << endl;
         cout << "Root 1 = " << root1 << endl;
         cout << "Root 2 = " << root2 << endl;
